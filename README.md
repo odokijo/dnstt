@@ -73,13 +73,13 @@ Jika memilih port lain, NOTRACK tidak dipasang.
 
 ### 3. Hubungkan HTTP Custom
 
-Lihat public key server:
+Lihat public key server, lalu copy pub key dan buka httpcustom apk, di slowdns profil pengaturan, tempel / paste di situ:
 
 ```sh
 cat /root/slowdns/server.pub
 ```
 
-Di pengaturan SlowDNS HTTP Custom, isi IP VPS, domain, dan public key tersebut,
+Di pengaturan SlowDNS HTTP Custom, isi IP VPS, domain nameserver, dan public key tersebut,
 lalu coba hubungkan. `server.key` adalah private key dan tetap disimpan di server.
 
 ### Memeriksa Layanan
